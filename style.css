@@ -1,29 +1,20 @@
-/*nav a {
-	display: inline-block;
-	background-color: white;
-	border: 1px solid black;
-	text-align: center;
-	border-radius: 0px;
-	text-decoration: none;
-	padding: 2%;
-	margin: 1%;
-	color: black;
-}*/
+body {
+	background-color: #e6f2ff;
+}
 
-ul {
+ul.topnav {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: black;
+	background-color: #003366;
 }
 
-li {
+ul.topnav li {
 	float: left;
-	width: 175px;
 }
 
-li a {
+ul.topnav li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -31,22 +22,30 @@ li a {
 	text-decoration: none;
 }
 
-/* Add "hover" functionality so that nav button
-changes color */
-li a:hover {
-	background-color: #111;
+ul.topnav li.right {
+	float: right;
 }
 
-/* Add "active" functionality so that nav button
-changes color to indicate current page */
-.active {
-	background-color: #4CAF50;
+ul.topnav li a:hover:not(.active) {
+	background-color: #3399ff;
+}
+
+ul.topnav li.right {
+	float: right;
+}
+
+@media screen and (max-width: 600px) {
+	ul.topnav li.right,
+	ul.topnav li {
+		float: none;
+	}
 }
 
 h1 {
 	text-align: center;
 	font-size: 60px;
 	margin-bottom: 0px;
+	color: #003366;
 }
 
 h2 {
@@ -54,10 +53,12 @@ h2 {
 	font-style: italic;
 	margin-top: 5px;
 	margin-bottom: 45px;
+	color: #003366;
 }
 
 footer {
 	text-align: center;
 	font-size: 12px;
+	color: #003366;
 }
 
