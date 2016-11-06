@@ -2,6 +2,11 @@ body {
 	background-color: #e6f2ff;
 }
 
+p {
+	font-family: sans-serif;
+}
+
+/*formatting for navbar at the top of the page */
 ul.topnav {
 	list-style-type: none;
 	margin: 0;
@@ -16,6 +21,7 @@ ul.topnav li {
 
 ul.topnav li a {
 	display: block;
+	font-family: sans-serif;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -34,6 +40,11 @@ ul.topnav li.right {
 	float: right;
 }
 
+ul.topnav li.active {
+	background-color: #ffad33;
+}
+
+/*responsive design*/
 @media screen and (max-width: 600px) {
 	ul.topnav li.right,
 	ul.topnav li {
@@ -41,7 +52,9 @@ ul.topnav li.right {
 	}
 }
 
+/*header formatting*/
 h1 {
+	font-family: sans-serif;
 	text-align: center;
 	font-size: 60px;
 	margin-bottom: 0px;
@@ -49,6 +62,7 @@ h1 {
 }
 
 h2 {
+	font-family: sans-serif;
 	text-align: center;
 	font-style: italic;
 	margin-top: 5px;
@@ -56,9 +70,66 @@ h2 {
 	color: #003366;
 }
 
+h3 {
+	font-family: sans-serif;
+	text-align: center;
+	font-style: bold;
+	color: #003366
+}
+
+/*footer formatting*/
 footer {
 	text-align: center;
 	font-size: 12px;
 	color: #003366;
 }
+
+/*class formatting*/
+.flexbox {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.dentist_bio {
+	background-color: white;
+	color: #003366;
+	margin: 20px;
+	padding: 10px;
+	width: 500px;
+	height: 450px;
+	border-radius: 2px;
+	border-color: #003366;
+}
+
+.treitel_headshot {
+	max-width: 50%;
+	height: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -80px;
+	margin-top: -20px;
+	display: block;
+}
+
+.green_headshot {
+	max-width: 50%;
+	height: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: -100px;
+	display: block;
+}
+
 
