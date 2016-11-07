@@ -1,5 +1,6 @@
 body {
 	background-color: #e6f2ff;
+	background-image: none;
 }
 
 p {
@@ -63,7 +64,7 @@ ul.topnav li.active {
 	}
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 700px) {
     body.background_img {
     	background-image: url("img/AdobeStock_96928594.jpeg");
     	background-size: cover; 
