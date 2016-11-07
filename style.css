@@ -86,14 +86,11 @@ footer {
 }
 
 /*class formatting*/
-
-@media only screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
     body.background_img {
     	background-image: url("https://s3.amazonaws.com/si539portfolio/AdobeStock_96928594.jpeg");
     }
 }
-
-
 
 .flexbox {
   padding: 0;
@@ -116,7 +113,7 @@ footer {
 	margin: 20px;
 	padding: 10px;
 	width: 500px;
-	height: 450px;
+	height: 500px;
 	border-radius: 2px;
 	border-color: #003366;
 }
@@ -127,7 +124,7 @@ footer {
 	margin-top: auto;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: -80px;
+	margin-bottom: -70px;
 	margin-top: -20px;
 	display: block;
 }
@@ -138,7 +135,7 @@ footer {
 	margin-top: auto;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: -100px;
+	margin-bottom: -90px;
 	display: block;
 }
 
