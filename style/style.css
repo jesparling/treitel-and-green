@@ -66,7 +66,7 @@ ul.topnav li.active {
 
 @media only screen and (min-width: 700px) {
     body.background_img {
-    	background-image: url("img/AdobeStock_96928594.jpeg");
+    	background-image: url("https://s3.amazonaws.com/si539portfolio/img/AdobeStock_96928594.jpeg");
     	background-size: cover; 
     	background-position: center center;
     	background-attachment: fixed;
@@ -78,17 +78,11 @@ ul.topnav li.active {
         width: 49.99999%;
         margin: 6px 0;
     }
-    .googleMaps {
-    	width: 50%;
-    }
 }
 
 @media only screen and (max-width: 500px){
     .responsive {
         width: 100%;
-    }
-    .googleMaps {
-    	width: 100%;
     }
 }
 
