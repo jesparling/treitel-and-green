@@ -63,7 +63,7 @@ ul.topnav li.active {
 	}
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 500px) {
     body.background_img {
     	background-image: url("img/AdobeStock_96928594.jpeg");
     	background-size: cover; 
@@ -144,13 +144,6 @@ div.img img {
     height: auto;
 }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-    font-family: sans-serif;
-    color: #003366;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -165,12 +158,6 @@ div.desc {
 
 .introduction {
 	background-color: white;
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .flexbox {
